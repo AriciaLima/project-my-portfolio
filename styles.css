@@ -1,0 +1,109 @@
+/* Estilos base */
+* {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #dce9e2;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 5%;
+}
+
+.welcome {
+  color: #90a67b;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-box img {
+  width: 300px; /* Define a largura da imagem como 100% */
+  height: auto; /* Mantém a proporção original da imagem */
+  border-radius: 50%; /* Torna a imagem circular */
+  margin-right: 20px;
+}
+
+.profile-name {
+  color: #0d2601;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  padding: auto;
+}
+
+.profile-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  margin-top: 20px; /* Espaçamento entre o texto e o botão */
+}
+
+button.btn-contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #44732f;
+  border: 0;
+  padding: 10px 20px; /* Ajusta o padding conforme necessário */
+}
+
+button.btn-contato i {
+  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+header {
+  background-color: #44732f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Garante que o header ocupe toda a largura */
+  padding: 20px; /* Adiciona preenchimento ao header */
+  box-sizing: border-box; /* Inclui o padding no cálculo da largura */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
